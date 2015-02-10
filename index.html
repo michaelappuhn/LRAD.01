@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LRAD</title>
+</head>
+<body>
+<style>
+
+
+video#bgvid { 
+	position: fixed; right: 0; bottom: 0; 
+	min-width: 100%; min-height: 100%; 
+	width: auto; height: auto; z-index: -100; 
+	background: url(LRAD-Exploration-04.jpg) no-repeat; 
+	background-size: cover; 
+}
+
+
+
+@media screen and (max-device-width: 800px) {
+
+	body { background: url(polina.jpg) #000 no-repeat center center fixed; }
+
+	#bgvid { display: none; }
+
+}
+
+
+</style>
+
+<!-- http://demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video -->
+<!-- http://www.aaronvanderzwan.com/maximage/examples/html5video.html -->
+<!-- http://html5-fullscreen-video.ceseros.de/html_5_fullscreen/movie/1 -->
+<video autoplay loop poster="" id="bgvid">
+
+<!-- <source src=".webm" type="video/webm"> -->
+
+<source src="LRAD-Website_Video-03_1.mp4" type="video/mp4">
+
+</video>
+</body>
+</html>
